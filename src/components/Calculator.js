@@ -1,52 +1,45 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Calculator = () => {
-  const [total, setTotal] = useState('0');
-  const [next, setNext] = useState(null);
-  const [operation, setOperation] = useState(null);
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-  const onClickBtn = (event) => {
-    // eslint-disable-next-line no-undef
-    const calcObj = calculate({ total, next, operation }, event);
-    setTotal(calcObj.total);
-    setNext(calcObj.next);
-    setOperation(calcObj.operation);
-  };
-
-  return (
-    <div className="calculator disflex">
-      <div className="solution">
-        <span>{total}</span>
-        <span>{operation}</span>
-        <span>{next}</span>
-      </div>
-      <div className="btn-display disflex">
-        <div className="operators">
-          <button type="button" onClick={() => onClickBtn('AC')}>AC</button>
-          <button type="button" onClick={() => onClickBtn('+/-')}>+/-</button>
-          <button type="button" onClick={() => onClickBtn('%')}>%</button>
-          <button type="button" onClick={() => onClickBtn('7')}>7</button>
-          <button type="button" onClick={() => onClickBtn('8')}>8</button>
-          <button type="button" onClick={() => onClickBtn('9')}>9</button>
-          <button type="button" onClick={() => onClickBtn('4')}>4</button>
-          <button type="button" onClick={() => onClickBtn('5')}>5</button>
-          <button type="button" onClick={() => onClickBtn('6')}>6</button>
-          <button type="button" onClick={() => onClickBtn('1')}>1</button>
-          <button type="button" onClick={() => onClickBtn('2')}>2</button>
-          <button type="button" onClick={() => onClickBtn('3')}>3</button>
-          <button type="button" onClick={() => onClickBtn('0')} className="two-btn">0</button>
-          <button type="button" onClick={() => onClickBtn('.')}>.</button>
+  render() {
+    return (
+      <div className="calculator disflex">
+        <div className="solution">
+          <span>0</span>
         </div>
-        <div className="orange-btn">
-          <button type="button" onClick={() => onClickBtn('÷')}>÷</button>
-          <button type="button" onClick={() => onClickBtn('x')}>x</button>
-          <button type="button" onClick={() => onClickBtn('-')}>-</button>
-          <button type="button" onClick={() => onClickBtn('+')}>+</button>
-          <button type="button" onClick={() => onClickBtn('=')}>=</button>
+        <div className="btn-display disflex">
+          <div className="operators">
+            <button type="button">AC</button>
+            <button type="button">+/-</button>
+            <button type="button">%</button>
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button" className="two-btn">0</button>
+            <button type="button">.</button>
+          </div>
+          <div className="orange-btn">
+            <button type="button">/</button>
+            <button type="button">*</button>
+            <button type="button">-</button>
+            <button type="button">+</button>
+            <button type="button">=</button>
+          </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Calculator;
