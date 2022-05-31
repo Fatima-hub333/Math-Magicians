@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.disflex {
+  display: flex;
+}
+
+.calculator {
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  margin: 7% auto;
+  border: 1px solid;
+  font-size: 20px;
+}
+
+.solution {
+  width: 100%;
+  text-align: end;
+  padding: 3% 1%;
+  background: grey;
+  color: white;
+}
+
+button {
+  height: 7vh;
+}
+
+.operators {
+  width: 75%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.two-btn {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.orange-btn {
+  flex-direction: column;
+  width: 25%;
+}
+
+.orange-btn button {
+  background: orange;
+  width: 100%;
+  border: 1px solid;
+}
