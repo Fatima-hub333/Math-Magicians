@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.calc-cont {
+  justify-content: space-between;
+  padding: 5% 8%;
+}
+
 .disflex {
   display: flex;
 }
