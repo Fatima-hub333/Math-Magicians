@@ -14,6 +14,7 @@ const Calculator = () => {
   };
 
   return (
+
     <div className="calc-cont disflex">
       <p className="calculator-text">Let&#39;s do some maths!</p>
       <div className="calculator disflex">
@@ -22,7 +23,6 @@ const Calculator = () => {
           <span>{operation}</span>
           <span>{next}</span>
         </div>
-       
         <div className="btn-display disflex">
           <div className="operators">
             <button type="button" onClick={() => onClickBtn('AC')}>AC</button>
@@ -50,5 +50,7 @@ const Calculator = () => {
         </div>
       </div>
     </div>
+  );
+};
 
 export default Calculator;

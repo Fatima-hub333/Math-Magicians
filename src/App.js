@@ -1,11 +1,12 @@
+/* eslint-disable import/no-named-as-default-member */
 import React from 'react';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Calculator from './Component/calculator';
-import Home from './Component/Home'
-import Quotes from './Component/Quotes'
-import Navbar from './Component/navibar'
-import Footer from './Component/footer'
+import Home from './Component/Home';
+import Quotes from './Component/Quotes';
+import Navbar from './Component/navibar';
+import Footer from './Component/footer';
 
 class App extends React.Component {
   constructor(props) {
