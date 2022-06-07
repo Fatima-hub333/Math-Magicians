@@ -1,5 +1,5 @@
-/* eslint-disable react/jsx-no-undef */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './navibar.module.css';
 
 const Navbar = () => (
@@ -10,10 +10,10 @@ const Navbar = () => (
         <Link to="/" className={styles.navListLink}>Home</Link>
       </li>
       <li className={styles.navListItem}>
-        <Link to="/Math-Magicians/calculator" className={styles.navListLink}>Calculator</Link>
+        <Link to="/Math-Magicians1/calculator" className={styles.navListLink}>Calculator</Link>
       </li>
       <li className={styles.navListItem}>
-        <Link to="/Math-Magicians/Quotes" className={styles.navListLink}>Quote</Link>
+        <Link to="/Math-Magicians1/Quotes" className={styles.navListLink}>Quote</Link>
       </li>
     </ul>
   </header>
