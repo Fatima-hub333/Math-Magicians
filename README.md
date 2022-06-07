@@ -68,6 +68,9 @@ Feel free to check the [issues page](https://github.com/Fatima-hub333/Math-Magic
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- I am very Thankful to @Adanzeakonobi. Her way of coding is inspiration for me. I get help from her code, Understand the way she did this project & then apply that on my project. 
 
 ## License
 
