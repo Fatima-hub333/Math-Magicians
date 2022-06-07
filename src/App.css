@@ -15,11 +15,14 @@
 
 .calculator {
   flex-direction: column;
-  width: 25%;
   height: 100%;
-  margin: 7% auto;
   border: 1px solid #808080;
   font-size: 20px;
+}
+
+.calculator-text {
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .solution {
