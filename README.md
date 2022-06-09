@@ -23,6 +23,13 @@ Additional description about the project and its features.
   - github
   - npm
 
+## Live Demo
+
+ - [Netlify](https://genuine-buttercream-dd88d1.netlify.app/)
+ 
+- [Heroku](https://mathmagicians123.herokuapp.com/)
+  
+
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
 
@@ -56,7 +63,7 @@ The following tools help make easier to work with sample code.
 
 - GitHub: [@githubhandle](https://github.com/Fatima-hub333)
 - Twitter: [@twitterhandle](https://twitter.com/Fatima_developr)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/full-stack-webdeveloper-181583234/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatima-z-181583234/)
 
 ## 🤝 Contributing
 
